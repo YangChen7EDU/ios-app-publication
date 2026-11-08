@@ -2,7 +2,7 @@
 
 Research on the rules, process and review requirements for publishing iOS apps on the App Store, using **7EDU shipping 7edu.vip (Seven by 7EDU) as an iOS app** as the main case.
 
-> Last updated 2026-11-01. Apple changes these rules every year, usually after WWDC in June and again after the new OS ships in September–November. Before submitting, check the original text in [Official references](#6-official-references).
+> Last updated 2026-11-08. Apple changes these rules every year, usually after WWDC in June and again after the new OS ships in September–November. Before submitting, check the original text in [Official references](#6-official-references).
 
 ---
 
@@ -168,7 +168,7 @@ This step decides whether you pass on the first try:
 
 ## 5. Practice plan (a few small apps on the personal account first)
 
-1. **App A: minimal native app** (SwiftUI, one screen) → run the whole flow: Archive, upload, TestFlight, submit, release.
+1. **App A: minimal native app** (SwiftUI, no login, no network) → run the whole flow: Archive, upload, TestFlight, submit, release. → [GPA Calculator](apps/gpa-calculator/)
 2. **App B: app with sign-in** → practice Sign in with Apple, account deletion, the privacy label.
 3. **App C: a small Next.js project wrapped with Capacitor or Expo, with push** → test where the 4.2 line is. This is closest to 7edu.vip.
 4. Every time an app is rejected, log the reason and the fix in the review log below.
